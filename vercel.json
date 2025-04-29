@@ -4,8 +4,9 @@
         "src": "package.json",
         "use": "@vercel/node",
         "config": {
-          "installCommand": "corepack enable && pnpm install",
-          "buildCommand": "pnpm run build"
+          "installCommand": "pnpm install",
+          "buildCommand": "pnpm run build",
+          "outputDirectory": ".next"
         }
       }
     ]
